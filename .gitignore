@@ -2,7 +2,7 @@ node_modules/
 dist/
 # Models i memòria cau: no es pugen mai al repo
 public/models/
-models/
+/models/
 .cache/
 # Runtime copiat de node_modules (npm run dev el regenera)
 public/ort/

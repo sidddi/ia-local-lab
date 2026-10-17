@@ -1,0 +1,34 @@
+{
+  "model_type": "bert",
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "id2label": {
+    "0": "O",
+    "1": "B-DATE",
+    "2": "I-DATE",
+    "3": "B-PER",
+    "4": "I-PER",
+    "5": "B-ORG",
+    "6": "I-ORG",
+    "7": "B-LOC",
+    "8": "I-LOC"
+  },
+  "label2id": {
+    "O": 0,
+    "B-DATE": 1,
+    "I-DATE": 2,
+    "B-PER": 3,
+    "I-PER": 4,
+    "B-ORG": 5,
+    "I-ORG": 6,
+    "B-LOC": 7,
+    "I-LOC": 8
+  },
+  "vocab_size": 251,
+  "hidden_size": 9,
+  "num_attention_heads": 1,
+  "num_hidden_layers": 0,
+  "max_position_embeddings": 512,
+  "_comment": "Model de prova generat per scripts/make-tiny-ner.py. Sense qualitat."
+}
