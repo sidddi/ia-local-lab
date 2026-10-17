@@ -1,0 +1,49 @@
+{
+  "id": "ca-llarg",
+  "lang": "ca",
+  "kind": "long",
+  "title": "Guia de funcionament de la cooperativa d'habitatge La Teulada Verda",
+  "pii": [],
+  "qa": [
+    {
+      "q": "En quin any es va fundar la cooperativa?",
+      "a": "El 2009.",
+      "keys": [
+        "2009"
+      ]
+    },
+    {
+      "q": "Quant es paga de quota mensual per habitatge?",
+      "a": "410 euros al mes.",
+      "keys": [
+        "410",
+        "quatre-cents deu"
+      ]
+    },
+    {
+      "q": "Quin quòrum cal per començar una assemblea?",
+      "a": "El 60 % dels habitatges.",
+      "keys": [
+        "60",
+        "seixanta"
+      ]
+    },
+    {
+      "q": "Quina potència tenen les plaques solars?",
+      "a": "19 kW (48 plaques).",
+      "keys": [
+        "19 kw",
+        "19 quilowatts",
+        "dinou"
+      ]
+    },
+    {
+      "q": "Amb quant de preavís cal comunicar que vols deixar la cooperativa?",
+      "a": "Tres mesos.",
+      "keys": [
+        "3 mesos",
+        "tres mesos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+:root {
+  --bg: #f7f7f5;
+  --card: #ffffff;
+  --text: #1d1d1b;
+  --muted: #6b6b66;
+  --line: #e2e2dc;
+  --accent: #1f6f5c;
+  --accent-ink: #ffffff;
+  --warn: #8a5300;
+  --error: #b3261e;
+  --ok: #1f6f5c;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615;
+    --card: #20201e;
+    --text: #ecece8;
+    --muted: #a3a39c;
+    --line: #34342f;
+    --accent: #5cc3a6;
+    --accent-ink: #0d2a22;
+    --warn: #f0b35a;
+    --error: #ff8a80;
+    --ok: #5cc3a6;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 16px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+a { color: var(--accent); }
+.top {
+  position: sticky; top: 0; z-index: 5;
+  display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center;
+  padding: 10px 16px; background: var(--card); border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 700; text-decoration: none; color: var(--text); }
+nav { display: flex; flex-wrap: wrap; gap: 4px; flex: 1; }
+nav a { padding: 4px 8px; border-radius: 6px; text-decoration: none; color: var(--text); font-size: 14px; }
+nav a.active { background: var(--accent); color: var(--accent-ink); }
+main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 1.6rem; margin: 8px 0; }
+h2 { font-size: 1.15rem; margin: 0 0 10px; }
+h3 { font-size: 1rem; margin: 14px 0 6px; }
+.lead { color: var(--muted); max-width: 70ch; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin: 14px 0; }
+.row { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 8px 0; }
+label { display: inline-flex; gap: 6px; align-items: center; flex-wrap: wrap; margin: 4px 12px 4px 0; }
+select, input[type='text'], input[type='number'], textarea {
+  font: inherit; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--bg); color: var(--text); max-width: 100%;
+}
+textarea { width: 100%; }
+button {
+  font: inherit; padding: 7px 14px; border-radius: 8px; border: 1px solid var(--accent);
+  background: var(--accent); color: var(--accent-ink); cursor: pointer;
+}
+button.secondary { background: transparent; color: var(--accent); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+.muted, .hint { color: var(--muted); font-size: 14px; }
+.warn { color: var(--warn); }
+.status.error { color: var(--error); }
+.status.ok { color: var(--ok); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.metrics th { width: 40%; font-weight: 600; }
+table.metrics thead th { width: auto; }
+tr.total td { font-weight: 700; }
+tr.ko td { color: var(--error); }
+.metrics, .entities { display: block; overflow-x: auto; }
+.tag { display: inline-block; padding: 0 6px; border-radius: 4px; color: #fff; font-size: 12px; font-weight: 600; background: #555; }
+.t-DNI, .t-NIE { background: #e4572e; } .t-NIF { background: #c06d00; } .t-IBAN { background: #9c27b0; }
+.t-TEL { background: #2e86ab; } .t-EMAIL { background: #3a7d44; } .t-CP { background: #8d6e63; }
+.t-PER { background: #d81b60; } .t-ORG { background: #5e35b1; } .t-LOC { background: #00897b; }
+.preview { display: flex; flex-direction: column; gap: 12px; overflow-x: auto; margin-top: 12px; }
+.pdf-page { position: relative; box-shadow: 0 1px 4px rgba(0,0,0,.2); background: #fff; flex: none; }
+.pdf-mark { position: absolute; border: 2px solid var(--c); background: color-mix(in srgb, var(--c) 22%, transparent); border-radius: 3px; }
+pre.summary { white-space: pre-wrap; background: var(--bg); padding: 10px; border-radius: 8px; border: 1px solid var(--line); font: 14px/1.5 ui-monospace, monospace; }
+.qa { border-top: 1px solid var(--line); padding: 8px 0; }
+.passage { font-size: 13px; color: var(--muted); }
+.model-info { font-size: 14px; color: var(--muted); }
+.exp-list li { margin: 4px 0; }
+.foot { text-align: center; color: var(--muted); font-size: 13px; padding: 24px 16px; }
+@media (max-width: 640px) {
+  .top { position: static; }
+  table.metrics th { width: auto; }
+}

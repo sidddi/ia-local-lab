@@ -1,0 +1,49 @@
+{
+  "id": "en-llarg",
+  "lang": "en",
+  "kind": "long",
+  "title": "Handbook of the La Teulada Verda housing cooperative",
+  "pii": [],
+  "qa": [
+    {
+      "q": "In what year was the cooperative founded?",
+      "a": "In 2009.",
+      "keys": [
+        "2009"
+      ]
+    },
+    {
+      "q": "How much is the monthly fee per home?",
+      "a": "410 euros per month.",
+      "keys": [
+        "410",
+        "four hundred and ten"
+      ]
+    },
+    {
+      "q": "What quorum is needed to start a general meeting?",
+      "a": "60% of the homes.",
+      "keys": [
+        "60",
+        "sixty"
+      ]
+    },
+    {
+      "q": "What is the capacity of the solar panels?",
+      "a": "19 kW (48 panels).",
+      "keys": [
+        "19 kw",
+        "19 kilowatts",
+        "nineteen"
+      ]
+    },
+    {
+      "q": "How much notice must you give to leave the cooperative?",
+      "a": "Three months.",
+      "keys": [
+        "3 months",
+        "three months"
+      ]
+    }
+  ]
+}

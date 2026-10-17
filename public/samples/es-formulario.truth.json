@@ -1,0 +1,60 @@
+{
+  "id": "es-formulario",
+  "lang": "es",
+  "kind": "personal",
+  "title": "Formulario con datos personales",
+  "pii": [
+    {
+      "type": "DNI",
+      "value": "20345678Q"
+    },
+    {
+      "type": "NIE",
+      "value": "Z9876543A"
+    },
+    {
+      "type": "IBAN",
+      "value": "ES11 9000 0303 2055 5000 1112"
+    },
+    {
+      "type": "TEL",
+      "value": "655 908 123"
+    },
+    {
+      "type": "TEL",
+      "value": "963 21 45 87"
+    },
+    {
+      "type": "EMAIL",
+      "value": "lucia.fernandez@example.org"
+    },
+    {
+      "type": "CP",
+      "value": "46015"
+    },
+    {
+      "type": "PER",
+      "value": "Lucía Fernández Ortega"
+    },
+    {
+      "type": "PER",
+      "value": "Daniel Molina Fernández"
+    },
+    {
+      "type": "PER",
+      "value": "Javier Molina Ruiz"
+    },
+    {
+      "type": "ORG",
+      "value": "Club de Senderismo Las Encinas"
+    },
+    {
+      "type": "LOC",
+      "value": "Calle del Almendro Azul, 27, 2º B"
+    },
+    {
+      "type": "LOC",
+      "value": "Valencia"
+    }
+  ]
+}

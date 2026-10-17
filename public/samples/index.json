@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ca-carta",
+    "lang": "ca",
+    "kind": "personal",
+    "title": "Carta amb dades personals",
+    "pdf": "ca-carta.pdf",
+    "truth": "ca-carta.truth.json"
+  },
+  {
+    "id": "ca-factura",
+    "lang": "ca",
+    "kind": "invoice",
+    "title": "Factura inventada",
+    "pdf": "ca-factura.pdf",
+    "truth": "ca-factura.truth.json"
+  },
+  {
+    "id": "ca-llarg",
+    "lang": "ca",
+    "kind": "long",
+    "title": "Guia de funcionament de la cooperativa d'habitatge La Teulada Verda",
+    "pdf": "ca-llarg.pdf",
+    "truth": "ca-llarg.truth.json"
+  },
+  {
+    "id": "es-formulario",
+    "lang": "es",
+    "kind": "personal",
+    "title": "Formulario con datos personales",
+    "pdf": "es-formulario.pdf",
+    "truth": "es-formulario.truth.json"
+  },
+  {
+    "id": "es-factura",
+    "lang": "es",
+    "kind": "invoice",
+    "title": "Factura inventada",
+    "pdf": "es-factura.pdf",
+    "truth": "es-factura.truth.json"
+  },
+  {
+    "id": "es-llarg",
+    "lang": "es",
+    "kind": "long",
+    "title": "Guía de funcionamiento de la cooperativa de vivienda La Teulada Verda",
+    "pdf": "es-llarg.pdf",
+    "truth": "es-llarg.truth.json"
+  },
+  {
+    "id": "en-letter",
+    "lang": "en",
+    "kind": "personal",
+    "title": "Letter with personal data",
+    "pdf": "en-letter.pdf",
+    "truth": "en-letter.truth.json"
+  },
+  {
+    "id": "en-invoice",
+    "lang": "en",
+    "kind": "invoice",
+    "title": "Invented invoice",
+    "pdf": "en-invoice.pdf",
+    "truth": "en-invoice.truth.json"
+  },
+  {
+    "id": "en-llarg",
+    "lang": "en",
+    "kind": "long",
+    "title": "Handbook of the La Teulada Verda housing cooperative",
+    "pdf": "en-llarg.pdf",
+    "truth": "en-llarg.truth.json"
+  }
+]

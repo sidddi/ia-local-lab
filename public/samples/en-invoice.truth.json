@@ -1,0 +1,64 @@
+{
+  "id": "en-invoice",
+  "lang": "en",
+  "kind": "invoice",
+  "title": "Invented invoice",
+  "pii": [
+    {
+      "type": "NIF",
+      "value": "B03987658"
+    },
+    {
+      "type": "NIE",
+      "value": "Y8765432P"
+    },
+    {
+      "type": "IBAN",
+      "value": "ES40 9000 0606 7911 1222 3334"
+    },
+    {
+      "type": "TEL",
+      "value": "965 987 321"
+    },
+    {
+      "type": "EMAIL",
+      "value": "billing@brightpixel.example.com"
+    },
+    {
+      "type": "CP",
+      "value": "03002"
+    },
+    {
+      "type": "CP",
+      "value": "03015"
+    },
+    {
+      "type": "PER",
+      "value": "Sarah Collins"
+    },
+    {
+      "type": "ORG",
+      "value": "Bright Pixel Studio SL"
+    },
+    {
+      "type": "LOC",
+      "value": "Calle Castaños, 31"
+    },
+    {
+      "type": "LOC",
+      "value": "Calle Pintor Sorolla, 18"
+    },
+    {
+      "type": "LOC",
+      "value": "Alicante"
+    }
+  ],
+  "invoice": {
+    "emissor": "Bright Pixel Studio SL",
+    "nif": "B03987658",
+    "data": "2026-03-10",
+    "base": 1650,
+    "iva": 346.5,
+    "total": 1996.5
+  }
+}

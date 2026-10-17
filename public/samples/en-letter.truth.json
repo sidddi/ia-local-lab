@@ -1,0 +1,60 @@
+{
+  "id": "en-letter",
+  "lang": "en",
+  "kind": "personal",
+  "title": "Letter with personal data",
+  "pii": [
+    {
+      "type": "NIE",
+      "value": "Y2345678Z"
+    },
+    {
+      "type": "NIE",
+      "value": "X7654321J"
+    },
+    {
+      "type": "IBAN",
+      "value": "ES85 9000 0505 9966 6777 8889"
+    },
+    {
+      "type": "TEL",
+      "value": "+34 622 418 907"
+    },
+    {
+      "type": "TEL",
+      "value": "611 02 03 04"
+    },
+    {
+      "type": "TEL",
+      "value": "965 12 34 87"
+    },
+    {
+      "type": "EMAIL",
+      "value": "oliver.whitmore@example.net"
+    },
+    {
+      "type": "CP",
+      "value": "03001"
+    },
+    {
+      "type": "PER",
+      "value": "Oliver James Whitmore"
+    },
+    {
+      "type": "PER",
+      "value": "Hannah Clarke"
+    },
+    {
+      "type": "ORG",
+      "value": "Harbour Lane Language School SL"
+    },
+    {
+      "type": "LOC",
+      "value": "Calle Mar Menor, 5, 1º A"
+    },
+    {
+      "type": "LOC",
+      "value": "Alicante"
+    }
+  ]
+}

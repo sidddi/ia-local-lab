@@ -1,0 +1,64 @@
+{
+  "id": "es-factura",
+  "lang": "es",
+  "kind": "invoice",
+  "title": "Factura inventada",
+  "pii": [
+    {
+      "type": "NIF",
+      "value": "B46872131"
+    },
+    {
+      "type": "NIF",
+      "value": "B46123451"
+    },
+    {
+      "type": "IBAN",
+      "value": "ES98 9000 0404 0922 2333 4445"
+    },
+    {
+      "type": "TEL",
+      "value": "961 234 567"
+    },
+    {
+      "type": "EMAIL",
+      "value": "administracion@hlozano.example.com"
+    },
+    {
+      "type": "CP",
+      "value": "46023"
+    },
+    {
+      "type": "CP",
+      "value": "46021"
+    },
+    {
+      "type": "ORG",
+      "value": "Reformas Hermanos Lozano SL"
+    },
+    {
+      "type": "ORG",
+      "value": "Panadería Trigo Dorado SL"
+    },
+    {
+      "type": "LOC",
+      "value": "Avenida del Puerto Viejo, 112"
+    },
+    {
+      "type": "LOC",
+      "value": "Calle de la Harina, 9"
+    },
+    {
+      "type": "LOC",
+      "value": "Valencia"
+    }
+  ],
+  "invoice": {
+    "emissor": "Reformas Hermanos Lozano SL",
+    "nif": "B46872131",
+    "data": "2026-02-28",
+    "base": 2480,
+    "iva": 520.8,
+    "total": 3000.8
+  }
+}

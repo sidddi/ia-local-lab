@@ -1,0 +1,68 @@
+{
+  "id": "ca-factura",
+  "lang": "ca",
+  "kind": "invoice",
+  "title": "Factura inventada",
+  "pii": [
+    {
+      "type": "NIF",
+      "value": "B17583923"
+    },
+    {
+      "type": "DNI",
+      "value": "40987654K"
+    },
+    {
+      "type": "IBAN",
+      "value": "ES20 9000 0202 4198 7654 3210"
+    },
+    {
+      "type": "TEL",
+      "value": "972 23 45 67"
+    },
+    {
+      "type": "EMAIL",
+      "value": "factures@canroure.example.com"
+    },
+    {
+      "type": "CP",
+      "value": "17190"
+    },
+    {
+      "type": "CP",
+      "value": "17004"
+    },
+    {
+      "type": "PER",
+      "value": "Jordi Pons Bosch"
+    },
+    {
+      "type": "ORG",
+      "value": "Fusteria Can Roure SL"
+    },
+    {
+      "type": "LOC",
+      "value": "Polígon Les Mates, nau 7"
+    },
+    {
+      "type": "LOC",
+      "value": "Salt"
+    },
+    {
+      "type": "LOC",
+      "value": "Carrer Major, 45"
+    },
+    {
+      "type": "LOC",
+      "value": "Girona"
+    }
+  ],
+  "invoice": {
+    "emissor": "Fusteria Can Roure SL",
+    "nif": "B17583923",
+    "data": "2026-01-15",
+    "base": 1105,
+    "iva": 232.05,
+    "total": 1337.05
+  }
+}

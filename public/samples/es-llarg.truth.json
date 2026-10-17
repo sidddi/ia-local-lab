@@ -1,0 +1,49 @@
+{
+  "id": "es-llarg",
+  "lang": "es",
+  "kind": "long",
+  "title": "Guía de funcionamiento de la cooperativa de vivienda La Teulada Verda",
+  "pii": [],
+  "qa": [
+    {
+      "q": "¿En qué año se fundó la cooperativa?",
+      "a": "En 2009.",
+      "keys": [
+        "2009"
+      ]
+    },
+    {
+      "q": "¿Cuánto se paga de cuota mensual por vivienda?",
+      "a": "410 euros al mes.",
+      "keys": [
+        "410",
+        "cuatrocientos diez"
+      ]
+    },
+    {
+      "q": "¿Qué quórum hace falta para empezar una asamblea?",
+      "a": "El 60 % de las viviendas.",
+      "keys": [
+        "60",
+        "sesenta"
+      ]
+    },
+    {
+      "q": "¿Qué potencia tienen las placas solares?",
+      "a": "19 kW (48 placas).",
+      "keys": [
+        "19 kw",
+        "19 kilovatios",
+        "diecinueve"
+      ]
+    },
+    {
+      "q": "¿Con cuánto preaviso hay que comunicar que quieres dejar la cooperativa?",
+      "a": "Tres meses.",
+      "keys": [
+        "3 meses",
+        "tres meses"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ca-carta",
+  "lang": "ca",
+  "kind": "personal",
+  "title": "Carta amb dades personals",
+  "pii": [
+    {
+      "type": "DNI",
+      "value": "47851236N"
+    },
+    {
+      "type": "NIE",
+      "value": "X1234567L"
+    },
+    {
+      "type": "IBAN",
+      "value": "ES82 9000 0101 6612 3456 7890"
+    },
+    {
+      "type": "TEL",
+      "value": "612 345 678"
+    },
+    {
+      "type": "TEL",
+      "value": "+34 698 12 34 56"
+    },
+    {
+      "type": "TEL",
+      "value": "972 41 23 56"
+    },
+    {
+      "type": "EMAIL",
+      "value": "martina.vilaro@example.com"
+    },
+    {
+      "type": "CP",
+      "value": "17003"
+    },
+    {
+      "type": "PER",
+      "value": "Martina Vilaró Puig"
+    },
+    {
+      "type": "PER",
+      "value": "Pau Serra Vilaró"
+    },
+    {
+      "type": "PER",
+      "value": "Ahmed Benali Haddou"
+    },
+    {
+      "type": "ORG",
+      "value": "Acadèmia d'Idiomes Babel Verd SL"
+    },
+    {
+      "type": "LOC",
+      "value": "Carrer de les Magnòlies, 14, 3r 2a"
+    },
+    {
+      "type": "LOC",
+      "value": "Girona"
+    }
+  ]
+}

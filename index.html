@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      Política de seguretat: només el mateix origen i els dominis de models del laboratori.
+      Hugging Face (models) i raw.githubusercontent.com (biblioteques WASM de WebLLM) només calen durant les proves.
+      A producció: connect-src 'self' amb els models al mateix domini (vegeu README).
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; connect-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co https://raw.githubusercontent.com; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <title>Laboratori d'IA local</title>
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="#/">IA local · laboratori</a>
+      <nav id="nav">
+        <a href="#/e1">E1 Regles</a>
+        <a href="#/e2">E2 Entitats</a>
+        <a href="#/e3">E3 Resum</a>
+        <a href="#/e4">E4 Factures</a>
+        <a href="#/e5">E5 Preguntes</a>
+        <a href="#/resultats">Resultats</a>
+      </nav>
+      <button id="export" type="button" data-testid="export">Exporta els resultats (JSON)</button>
+    </header>
+    <main id="app"></main>
+    <footer class="foot">Cap document surt del navegador. Les úniques baixades són el codi de la web i els models.</footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
